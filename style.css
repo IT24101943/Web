@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+}
+.hero-section {
+  height: 100vh;
+  background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+}
+.nav-link {
+  margin-right: 15px;
+  font-size: 18px;
+}
+.movie-carousel {
+  background-color: #111;
+}
+.movie-poster {
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.movie-poster:hover {
+  transform: scale(1.05);
+}
